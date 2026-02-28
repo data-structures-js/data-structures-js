@@ -1,0 +1,27 @@
+{
+  "name": "data-structures-js",
+  "private": true,
+  "description": "Data structures in JavaScript and TypeScript",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "build:linked-list": "npm run build -w @data-structures-js/linked-list",
+    "build:stack": "npm run build -w @data-structures-js/stack",
+    "build:core": "npm run build -w datastructures-js",
+    "clean": "npm run clean --workspaces --if-present",
+    "publish:linked-list": "npm run build:linked-list && npm publish -w @data-structures-js/linked-list --access public",
+    "publish:stack": "npm run build:stack && npm publish -w @data-structures-js/stack --access public",
+    "publish:core": "npm run build && npm publish -w datastructures-js"
+  },
+  "keywords": [
+    "data-structures",
+    "linked-list",
+    "stack",
+    "typescript",
+    "javascript"
+  ],
+  "author": "data-structures-js",
+  "license": "MIT"
+}

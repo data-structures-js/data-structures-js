@@ -1,0 +1,33 @@
+{
+  "name": "datastructures-js",
+  "version": "1.0.0",
+  "description": "Data structures in JavaScript and TypeScript - consolidated package",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "build": "node -e \"console.log('Meta package - no build needed')\""
+  },
+  "keywords": [
+    "data-structures",
+    "linked-list",
+    "stack",
+    "typescript",
+    "javascript"
+  ],
+  "author": "data-structures-js",
+  "license": "MIT",
+  "dependencies": {
+    "@data-structures-js/linked-list": "^1.0.0",
+    "@data-structures-js/stack": "^1.0.0"
+  }
+}
