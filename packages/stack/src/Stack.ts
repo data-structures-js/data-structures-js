@@ -1,6 +1,5 @@
 /**
  * Stack data structure (LIFO).
- * Matches datastructures-js Stack API.
  */
 export class Stack<T> {
   private _elements: T[] = [];

@@ -24,7 +24,7 @@
     "typescript",
     "javascript"
   ],
-  "author": "data-structures-js",
+  "author": "tuanna184",
   "license": "MIT",
   "dependencies": {
     "@data-structures-js/linked-list": "^1.0.0",

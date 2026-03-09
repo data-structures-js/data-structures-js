@@ -29,7 +29,7 @@ npm install @data-structures-js/stack
 
 ## Usage
 
-### Consolidated (meta package)
+### Consolidated
 
 ```javascript
 const { LinkedList, LinkedListNode, Stack } = require('@data-structures-js/core');

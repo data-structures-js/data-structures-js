@@ -13,7 +13,11 @@
     "clean": "npm run clean --workspaces --if-present",
     "publish:linked-list": "npm run build:linked-list && npm publish -w @data-structures-js/linked-list --access public",
     "publish:stack": "npm run build:stack && npm publish -w @data-structures-js/stack --access public",
-    "publish:core": "npm run build:core && npm publish -w @data-structures-js/core --access public"
+    "publish:core": "npm run build:core && npm publish -w @data-structures-js/core --access public",
+    "test": "jest --config jest.config.js",
+    "test:linked-list": "jest --config jest.config.js -w @data-structures-js/linked-list",
+    "test:stack": "jest --config jest.config.js -w @data-structures-js/stack",
+    "test:core": "jest --config jest.config.js -w @data-structures-js/core"
   },
   "keywords": [
     "data-structures",
@@ -22,6 +26,11 @@
     "typescript",
     "javascript"
   ],
-  "author": "data-structures-js",
-  "license": "MIT"
+  "author": "tuanna184",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6"
+  }
 }
