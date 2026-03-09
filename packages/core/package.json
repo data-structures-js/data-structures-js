@@ -1,7 +1,7 @@
 {
-  "name": "datastructures-js",
+  "name": "@data-structures-js/core",
   "version": "1.0.0",
-  "description": "Data structures in JavaScript and TypeScript - consolidated package",
+  "description": "Data structures in JavaScript and TypeScript",
   "main": "index.js",
   "types": "index.d.ts",
   "exports": {

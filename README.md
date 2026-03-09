@@ -9,7 +9,7 @@ data-structures-js/
 ├── packages/
 │   ├── linked-list/     # @data-structures-js/linked-list
 │   ├── stack/           # @data-structures-js/stack
-│   └── core/            # datastructures-js (meta - all-in-one)
+│   └── core/            # @data-structures-js/core
 ├── package.json         # npm workspaces
 └── README.md
 ```
@@ -18,7 +18,7 @@ data-structures-js/
 
 **All structures (meta package):**
 ```bash
-npm install datastructures-js
+npm install @data-structures-js/core
 ```
 
 **Individual packages:**
@@ -32,7 +32,7 @@ npm install @data-structures-js/stack
 ### Consolidated (meta package)
 
 ```javascript
-const { LinkedList, LinkedListNode, Stack } = require('datastructures-js');
+const { LinkedList, LinkedListNode, Stack } = require('@data-structures-js/core');
 ```
 
 ### Individual packages
@@ -65,4 +65,4 @@ npm run publish:core          # Publish meta package last
 
 1. `@data-structures-js/linked-list`
 2. `@data-structures-js/stack`
-3. `datastructures-js` (meta package depends on above)
+3. `@data-structures-js/core`

@@ -1,18 +1,18 @@
-# datastructures-js
+# @data-structures-js/core
 
-Consolidated package - all data structures in one install.
+All data structures in one install.
 
 ## Install
 
 ```bash
-npm install datastructures-js
+npm install @data-structures-js/core
 ```
 
 ## Usage
 
 ```javascript
 // Install everything
-const { LinkedList, Stack } = require('datastructures-js');
+const { LinkedList, Stack } = require('@data-structures-js/core');
 
 // Or install individually
 // npm install @data-structures-js/linked-list

@@ -9,11 +9,11 @@
     "build": "npm run build --workspaces --if-present",
     "build:linked-list": "npm run build -w @data-structures-js/linked-list",
     "build:stack": "npm run build -w @data-structures-js/stack",
-    "build:core": "npm run build -w datastructures-js",
+    "build:core": "npm run build -w @data-structures-js/core",
     "clean": "npm run clean --workspaces --if-present",
     "publish:linked-list": "npm run build:linked-list && npm publish -w @data-structures-js/linked-list --access public",
     "publish:stack": "npm run build:stack && npm publish -w @data-structures-js/stack --access public",
-    "publish:core": "npm run build && npm publish -w datastructures-js"
+    "publish:core": "npm run build:core && npm publish -w @data-structures-js/core --access public"
   },
   "keywords": [
     "data-structures",
